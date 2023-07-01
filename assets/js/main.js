@@ -3,7 +3,7 @@ const inputEl = document.querySelector('input');
 
 
 async function getJSONData() {                                     // DATA get from json file
-    const response = await fetch("../assets/json/data.json");
+    const response = await fetch("./assets/json/data.json");
     return await response.json();
 
 }
