@@ -20,7 +20,8 @@ searchRecord = async (value) => {
     );
 
     const resultSectionEl = document.querySelector("#resultSection");
-
+ 
+    
     if(recordFound) {
         resultSectionEl.classList.remove('hidden');
 
